@@ -1,0 +1,80 @@
+.company-card-white {
+    background-color: var(--color-5);
+    color: var(--color-7);
+    padding: 10px;
+    width: 230px;
+    height: 330px;
+    border-radius: 30px;
+    /* margin: auto; */
+    position: relative;
+}
+
+.company-card-pink {
+    background-color: var(--color-2);
+    width: 230px;
+    height: 330px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    visibility: hiddens;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    user-select: none;
+}
+
+.company-card-pink:hover {
+    visibility: visible;
+    opacity: 100;
+}
+
+.company-reverse-name {
+    padding-left: 30px;
+    padding-top: 10px;
+    color: var(--color-5);
+    font-size: 20px;
+}
+
+.companyimg {
+    width: 200px;
+    height: 150px;
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+.company-date-text {
+    margin: 0px 15px 0px 10px;
+    color: var(--color-6);
+}
+
+.company-reverse-date {
+    padding-left: 30px;
+    padding-top: 10px;
+    color: var(--color-5);
+    font-size: 15px;
+}
+
+.company-name-text {
+    margin: 0px 15px 0px 10px;
+    font-size: 20px;
+}
+
+.company-reverse-name {
+    padding-left: 30px;
+    padding-top: 70px;
+    color: var(--color-5);
+    font-size: 20px;
+}
+
+.company-location-text {
+    margin: 10px 15px 0px 10px;
+    color: var(--color-6);
+}
+
+.company-reverse-location {
+    padding-left: 30px;
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+}

@@ -1,0 +1,26 @@
+.eventlist {
+    padding: 200px 50px 200px 50px;
+}
+
+.box_product_main_page {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+}
+
+.category_prodycts {
+    background-color: var(--color-2);
+    ;
+    padding: 5px;
+    margin: 190px 5% 5% 5%;
+    border-radius: 30px;
+    border-style: double;
+    border-color: var(--color-5);
+    border-width: 1vw;
+    font-family: 'Playfair Display', serif;
+    color: var(--color-5);
+    font-size: 140%;
+    text-align: center;
+    margin-bottom: 5%;
+}

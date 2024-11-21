@@ -1,0 +1,27 @@
+.comp_list_new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-4);
+    color: var(--color-7);
+    width: 250px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+.comp_list_new_button {
+    background-color: var(--color-4);
+    border: 5px solid var(--color-5);
+    padding: 10px 20px;
+    width: 220px;
+    color: var(--color-5);
+    text-align: center;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.comp_list_new_button:hover {
+    background-color: var(--color-5);
+    color: var(--color-6);
+}

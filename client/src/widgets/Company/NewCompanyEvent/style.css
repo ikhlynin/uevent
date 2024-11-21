@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+.header_form_cmp {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-4);
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.form_cmp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-end; */
+
+}
+
+.form_cmp:last-child {
+    justify-content: end;
+    align-items: end;
+}
+
+.update_avatar_form_cmp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    width: 100%;
+}
+
+.update_avatar_form_cmp input {
+    margin-left: 20px;
+}
+
+.update_button_form_cmp {
+    width: 20vw;
+    background-color: var(--color-1);
+    border-radius: 30px;
+    border: none;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: var(--color-5);
+    padding: 10px;
+    margin: 60px 10% 20px 0;
+}
+
+.comp_error_cmp {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: var(--color-1);
+    width: 50%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.update_button_form_cmp:hover {
+    background-color: var(--color-2);
+}
+
+.box_input_from_cmp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.span_input_from_cmp {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: var(--color-4);
+    width: 20%;
+    margin: 10px 0;
+}
+
+
+.input_from_cmp {
+    width: 60%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid var(--color-3);
+
+}
+
+.input_from_cmp:focus,
+.input_from_cmp:active {
+    outline: none;
+}
+
+.input_file_from_cmp {
+    background-color: var(--color-3);
+}
+
+.feedback_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 45px;
+    margin-left: 20px;
+    padding: 8px 20px 7px;
+    border-radius: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--color-3);
+    color: var(--color-5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.feedback_label:hover {
+    background-color: var(--color-6);
+}
+
+.feedback_file {
+    display: none;
+}

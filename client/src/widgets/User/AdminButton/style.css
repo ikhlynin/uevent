@@ -1,0 +1,19 @@
+.admin_button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: auto;
+    height: auto;
+    background-color: var(--color-2);
+    user-select: none;
+    padding: 20px 30px;
+    font-size: 25px;
+    border-radius: 30px;
+    color: var(--color-5);
+    transition: all 0.3s ease;
+}
+
+.admin_button:hover {
+    background-color: var(--color-5);
+    color: var(--color-2);
+}

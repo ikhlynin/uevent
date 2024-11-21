@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: var(--color-1);
+}
+
+.authbtn {
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.profile_img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.profile_btn {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-1);
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}

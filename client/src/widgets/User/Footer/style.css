@@ -1,0 +1,37 @@
+.footer_box {
+    width: 100vw;
+    height: 160px;
+    padding: 15px 15% 5px 15%;
+    background-color: var(--color-5);
+}
+
+.footer_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_img {
+    width: 50px;
+    height: 50px;
+    margin-left: 26px;
+}
+
+.footer_space_betw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_contacts_text {
+    font-size: 25px;
+    color: var(--color-1);
+}
+
+.footer_contacts_text_grey {
+    font-size: 25px;
+    color: var(--color-4);
+}

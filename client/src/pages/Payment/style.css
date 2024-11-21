@@ -1,0 +1,23 @@
+.pay_box {
+    width: 600px;
+    height: 500px;
+    background-color: var(--color-8);
+    border-radius: 40px;
+    margin: 50px 350px;
+}
+
+.pay_uppertext {
+    width: 100%;
+    padding: 20px 50px;
+    font-size: 30px;
+    color: var(--color-4);
+}
+
+.pay_margin {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.d {
+    width: 80%;
+}

@@ -1,0 +1,54 @@
+.admin_panel_user_item {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--color-4);
+    color: var(--color-8);
+    width: 330px;
+    border-radius: 30px;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.admin_panel_user_item:hover {
+    background-color: var(--color-1);
+}
+
+.admin_panel_user_avatar {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.admin_panel_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin_panel_user_name {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.admin_panel_user_email {
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+.admin_panel_user_delete_img {
+    width: 30px;
+    height: 30px;
+}
+
+.admin_panel_user_delete {
+    background-color: var(--color-1);
+    border-radius: 100%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.admin_panel_user_delete:hover {
+    background-color: var(--color-4);
+}

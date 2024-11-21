@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.card_box_pr {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-8);
+    color: var(--color-7);
+    border-radius: 30px;
+
+    margin: 200px 200px 0px 200px;
+    padding: 30px;
+}
+
+.img_avatar_pr {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid var(--color-6);
+}
+
+.data_user_pr {
+    width: 60%;
+    margin-left: 25px;
+}
+
+.name_user_pr,
+.status_user_pr {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-1);
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.status_user_pr {
+    font-size: 20px;
+}
+
+
+
+.message_link_pr {
+    width: 9vw;
+    height: 5vw;
+    background-color: var(--color-2);
+    border-radius: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0.9vw;
+}
+
+.count_message_block_pr {
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    background-image: url("./assets/free.png");
+}
+
+.box_link_button_pr {
+    display: flex;
+    flex-direction: column;
+}
+
+.box_link_button_pr a {
+    margin-bottom: 5px;
+}

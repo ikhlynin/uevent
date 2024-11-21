@@ -1,0 +1,13 @@
+.box_one_category_product_c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 80vw;
+    height: 120%;
+    margin: auto;
+}
+
+.box_one_category_product_aboba {
+    height: 75vh;
+}

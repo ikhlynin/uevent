@@ -1,0 +1,10 @@
+.event_opened_map_loading {
+    margin: 50px 200px;
+    font-size: 20px;
+    color: var(--color-2);
+}
+
+.event_opened_map_container {
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,48 @@
+.nav_bar_box {
+    width: 100%;
+    height: 160px;
+    padding: 15px 15% 5px 15%;
+
+    background-color: var(--color-8);
+
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    align-items: center;
+    z-index: 50;
+}
+
+.links_box {
+    /* padding-top: 30px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_box_navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.flex_row_nv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home_nema {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.home_nema:hover {
+    color: var(--color-6);
+}
+
+.marg_bot_aut {
+    height: 50px;
+    margin-bottom: 10px;
+}

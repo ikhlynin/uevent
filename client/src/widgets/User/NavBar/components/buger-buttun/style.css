@@ -1,0 +1,46 @@
+.burger_bth {
+    width: 30px;
+    height: 30px;
+
+    margin-right: 10px;
+    position: relative;
+
+    cursor: pointer;
+
+}
+
+.burger_bth::before {
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+
+    content: '';
+    position: absolute;
+    top: 0;
+
+    background-color: var(--color-1);
+}
+
+.burger_bth span {
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+
+    content: '';
+    position: absolute;
+    top: 40%;
+
+    background-color: var(--color-1);
+}
+
+.burger_bth::after {
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+
+    background-color: var(--color-1);
+}

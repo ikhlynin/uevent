@@ -1,0 +1,40 @@
+.button_boc_new_company {
+    width: 15vw;
+    height: 4vw;
+    position: fixed;
+    background-color: var(--color-2);
+    border-radius: 30px;
+    right: 10px;
+    bottom: 5vw;
+    z-index: 999;
+    text-align: center;
+    user-select: none;
+    padding-top: 13px;
+    transition: all 0.3s ease;
+}
+
+.button_boc_new_company:hover {
+    background-color: var(--color-1);
+    color: var(--color-5);
+}
+
+.button_boc_new_event {
+    width: 15vw;
+    height: 4vw;
+    position: fixed;
+    background-color: var(--color-2);
+    border-radius: 30px;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999;
+    text-align: center;
+    user-select: none;
+    padding-top: 13px;
+    transition: all 0.3s ease;
+
+}
+
+.button_boc_new_event:hover {
+    background-color: var(--color-1);
+    color: var(--color-5);
+}
